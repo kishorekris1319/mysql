@@ -1,0 +1,8 @@
+create database mydb;
+use mydb;
+create table student (rollno varchar(10),name varchar(25),gender varchar(20),degree varchar(20),branch varchar(20),phno varchar(13),idcardno varchar(20),gpa varchar(20),year varchar(20),sem varchar(20));
+insert into student values (1,'kris','m','BE','CSE',9543466555,155651,78,3,6);
+select * from student;
+insert into student values (2,'kane','m','Btech','it',9543488777,155652,79,3,6);
+insert into student values (3,'oleson','f','Bsc','eng',9543455666,155653,85,2,4);
+select * from student;
