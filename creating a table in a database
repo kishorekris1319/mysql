@@ -1,3 +1,4 @@
 create database mydb;
 use mydb;
 create table student (rollno varchar(10),name varchar(25),gender varchar(20),degree varchar(20),branch varchar(20),phno varchar(13),idcardno varchar(20),gpa varchar(20),year varchar(20),sem varchar(20));
+// if the version supports varchar2 use it..
